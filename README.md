@@ -4,6 +4,7 @@ Minimalistic PWA example on Rust
 ## Todo:  
 * HTML + CSS + Service worker + wasm-bindgen  
 * Dioxus  
+    * [PWA example](https://github.com/DioxusLabs/dioxus/tree/ffe02b43c525123ff9ea79e9879d33517bd4059d/examples/PWA-example)  
 * egui  
 * Customize with CSS    
 
