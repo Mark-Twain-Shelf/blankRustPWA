@@ -12,7 +12,6 @@ More Rust frontend frameworks to try:
 * Iced  
 * Sauron  
 * Leptos  
-* Tauri  
 * Yew  
 
 ## Why and what to prefer?  
