@@ -1,13 +1,11 @@
 #![allow(non_snake_case)]
 
 use dioxus::prelude::*;
-use log::LevelFilter;
+use tracing::Level;
 
 fn main() {
-    // Init debug
-    dioxus_logger::init(LevelFilter::Info).expect("failed to init logger");
-    console_error_panic_hook::set_once();
-
+    // Init logger
+    dioxus_logger::init(Level::INFO).expect("failed to init logger");
     launch(App);
 }
 
